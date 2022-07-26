@@ -1,0 +1,67 @@
+
+
+
+                                    Angular - Front End Technology
+
+
+                                        Basic Commands
+
+
+                1. To create project - ng new projectName / ng new projectName --routing
+
+                2. To run Angular project - ng serve / ng serve --open
+
+                3. To generate component - ng g c componentName
+
+                4. To generate service - ng g s serviceName
+
+
+
+
+                                        Building Blocks
+
+
+                1. Module - To import libraries (root Module - AppModule)
+
+                2. Component - To create view {html,css,ts} - (root Component - AppComponent)
+
+                3. Data Binding - share data inside a component
+
+                    3.1 One way Binding - Data sharing only in one direction at a time
+
+                        3.1.1 Component (ts) to View (html)
+
+                            3.1.1.1 String Interpolation - {{expression}} 
+
+                            3.1.1.2 Property Binding - [attribute name]="Property name"
+
+                        3.1.2 View (html) to Component (ts)
+
+                            3.1.2.1 Event Binding - (event-name)="function name()"
+
+                            3.1.2.2 Event Binding using $event - (event-name)="function name($event)"
+
+                            3.1.2.3 Using Template referencing variable - #variable-name
+
+                    3.2 Two way Binding - Data sharing in both direction at the same time
+
+                            3.2.1 ngModel - import FormsModule in AppModule - [(ngModel)]="variable-name"
+
+
+                4. Angular Routing - to set path for component in appRoutingModule
+                    - use router-outlet selector in root component
+
+                5. Dependency Injection
+
+                6. Angular services
+
+                7. ngSubmit 
+
+                8. Angular Directives -  To manipulate DOM 
+
+                    8.1 Component Directives
+
+                    8.2 Structural Directives - prefix by *
+
+                        8.2.1 *ngFor
+
